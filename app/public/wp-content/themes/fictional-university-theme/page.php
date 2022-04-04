@@ -31,26 +31,38 @@ while (have_posts()) {
             </div>
 
         <?php
-        } else {
+        }
+        ?>
+
+        <?php
+
+        $childrenArray = get_pages(array(
+            'child_of' => get_the_ID()
+        ));
+
+        if ($parentId or $childrenArray) {
         ?>
             <div class="page-links">
-                <h2 class="page-links__title"><a href="#"><?php the_title() ?></a></h2>
+                <h2 class="page-links__title"><a href="<?php echo get_permalink($parentId) ?>"><?php echo get_the_title($parentId); ?></a></h2>
                 <ul class="min-list">
                     <?php
-                    wp_list_pages('children');
-                    ?>
 
-                    <li class="current_page_item"><a href="#">Our History</a></li>
-                    <li><a href="#">Our Goals</a></li>
+                    if ($parentId) {
+                        $findChildrenOfId = $parentId;
+                    } else {
+                        $findChildrenOfId = get_the_ID();
+                    }
+
+                    wp_list_pages(array(
+                        'title_li' => NULL,
+                        'child_of' => $findChildrenOfId,
+                        'sort_column' => 'menu_order' //Set children links to match order set in WP console
+                    ));
+                    ?>
                 </ul>
             </div>
 
-        <?php
-        }
-
-        ?>
-
-
+        <?php } ?>
 
 
 
