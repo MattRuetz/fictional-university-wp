@@ -1,3 +1,4 @@
+PAGE.PHP
 <!-- Page for a specific post -->
 <?php
 get_header();
@@ -63,8 +64,6 @@ while (have_posts()) {
             </div>
 
         <?php } ?>
-
-
 
         <div class="generic-content">
             <?php the_content() ?>

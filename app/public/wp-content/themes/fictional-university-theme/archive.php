@@ -1,5 +1,4 @@
-INDEX.PHP
-<!-- Blog Page - List posts -->
+ARCHIVE.PHP
 
 <?php get_header(); ?>
 
