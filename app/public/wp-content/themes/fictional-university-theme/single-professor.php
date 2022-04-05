@@ -1,20 +1,18 @@
-SINGLE-EVENT.php
-<!-- Page for a specific event post -->
+SINGLE-PROFESSOR.PHP
+<!-- Page for a specific professor post -->
 <?php
 get_header();
 
 while (have_posts()) {
-    the_post(); ?>
+    the_post();
+    pageBanner(array(
+        'title' => 'Title from SINGLE-PROFESSOR.php',
+        'subtitle' => 'Subtitle from SINGLE-PROFESSOR.php',
+        'photo' => 'https://cdn.pixabay.com/photo/2014/12/03/12/21/monk-555391_1280.jpg'
+    ));
+?>
 
-    <div class="page-banner">
-        <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg') ?>)"></div>
-        <div class="page-banner__content container container--narrow">
-            <h1 class="page-banner__title"><?php the_title(); ?></h1>
-            <div class="page-banner__intro">
-                <p style="color: red">REPLACE ME LATER</p>
-            </div>
-        </div>
-    </div>
+
 
     <div class="container container--narrow page-section">
 
@@ -24,17 +22,24 @@ while (have_posts()) {
             </p>
         </div>
 
-        <div class="generic-content"><?php the_content() ?></div>
+        <div class="generic-content">
+            <div class="row group">
+                <div class="one-third">
+                    <?php the_post_thumbnail('professorPortrait') ?>
+                </div>
+
+                <div class="two-thirds">
+                    <?php the_content() ?>
+                </div>
+            </div>
+        </div>
 
         <?php
         $relatedPrograms = get_field('related_programs');
 
         if ($relatedPrograms) {
-
-
-
             echo '<hr class="section-break">';
-            echo '<h2 class="headline headline--medium">Related Program(s)</h2>';
+            echo '<h2 class="headline headline--medium">Subject(s) Taught</h2>';
             echo '<ul class="link-list min-list">';
 
             foreach ($relatedPrograms as $program) {

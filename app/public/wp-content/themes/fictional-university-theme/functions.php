@@ -1,5 +1,39 @@
 <?php
 
+function pageBanner($args = NULL) //args optional
+{
+    if (!$args['title']) { //if no title input, give page/article title
+        $args['title'] = get_the_title();
+    }
+
+    if (!$args['subtitle']) { //if no title input, give page/article title
+        $args['subtitle'] = get_field('page_banner_subtitle');
+    }
+
+    if (!$args['photo']) { //if no title input, give page/article title
+
+        if (
+            get_field('page_banner_background_image') and !is_archive() and !is_home()
+        ) {
+            $args['photo'] = get_field('page_banner_background_image')['sizes']['pageBanner'];
+        } else {
+            $args['photo'] = get_theme_file_uri('/images/ocean.jpg');
+        }
+    }
+?>
+    <div class="page-banner">
+        <div class="page-banner__bg-image" style="background-image: url(<?php echo $args['photo'] ?>)"></div>
+        <div class="page-banner__content container container--narrow">
+            <h1 class="page-banner__title"><?php echo $args['title'] ?></h1>
+            <div class="page-banner__intro">
+                <p><?php echo $args['subtitle'] ?></p>
+            </div>
+        </div>
+    </div>
+
+<?php
+}
+
 function university_files()
 {
     wp_enqueue_script('main-university-js', get_theme_file_uri('/build/index.js'), array('jquery'), '1.0', true);
@@ -21,6 +55,12 @@ function university_features()
     register_nav_menu('footerLocationTwo', 'Footer Location Two');
     // browser tab shows current page title
     add_theme_support('title-tag');
+    // allow posts to be associated to a thumbnail in admin
+    add_theme_support('post-thumbnails');
+    // Create new image sizes for different contexts of professor img
+    add_image_size('professorLandscape', 400, 260, true);
+    add_image_size('professorPortrait', 480, 650, true);
+    add_image_size('pageBanner', 1500, 550, true);
 }
 
 add_action('after_setup_theme', 'university_features');
@@ -29,6 +69,12 @@ add_action('after_setup_theme', 'university_features');
 function university_adjust_queries($query)
 {
     $today = date('Ymd');
+
+    if (!is_admin() and is_post_type_archive('program') and $query->is_main_query()) {
+        $query->set('orderby', 'title');
+        $query->set('order', 'asc');
+        $query->set('posts_per_page', -1);
+    }
 
     if (!is_admin() and is_post_type_archive('event') and $query->is_main_query()) {
         $query->set('meta_key', 'event_date');
