@@ -43,8 +43,8 @@ get_header();
 
             while ($homepageEvents->have_posts()) {
                 $homepageEvents->the_post();
-                // pull in PHP from: template-parts/event.php
-                get_template_part('template-parts/event');
+                // pull in PHP from: template-parts/content-event.php
+                get_template_part('template-parts/content', 'event');
             }
             wp_reset_postdata();
             ?>
