@@ -5,15 +5,8 @@ get_header();
 
 while (have_posts()) {
     the_post();
-    pageBanner(array(
-        'title' => 'Title from SINGLE-PROFESSOR.php',
-        'subtitle' => 'Subtitle from SINGLE-PROFESSOR.php',
-        'photo' => 'https://cdn.pixabay.com/photo/2014/12/03/12/21/monk-555391_1280.jpg'
-    ));
+    pageBanner();
 ?>
-
-
-
     <div class="container container--narrow page-section">
 
         <div class="metabox metabox--position-up metabox--with-home-link">
