@@ -1,76 +1,84 @@
+// FROM Advanced Custom Fields wp plugin docs
+
 class GMap {
-  constructor() {
-    document.querySelectorAll(".acf-map").forEach(el => {
-      this.new_map(el)
-    })
-  }
-
-  new_map($el) {
-    var $markers = $el.querySelectorAll(".marker")
-
-    var args = {
-      zoom: 16,
-      center: new google.maps.LatLng(0, 0),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+    constructor() {
+        document.querySelectorAll('.acf-map').forEach((el) => {
+            this.new_map(el);
+        });
     }
 
-    var map = new google.maps.Map($el, args)
-    map.markers = []
-    var that = this
+    new_map($el) {
+        var $markers = $el.querySelectorAll('.marker');
 
-    // add markers
-    $markers.forEach(function (x) {
-      that.add_marker(x, map)
-    })
+        var args = {
+            zoom: 16,
+            center: new google.maps.LatLng(0, 0),
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+        };
 
-    // center map
-    this.center_map(map)
-  } // end new_map
+        var map = new google.maps.Map($el, args);
+        map.markers = [];
+        var that = this;
 
-  add_marker($marker, map) {
-    var latlng = new google.maps.LatLng($marker.getAttribute("data-lat"), $marker.getAttribute("data-lng"))
+        // add markers
+        $markers.forEach(function (x) {
+            that.add_marker(x, map);
+        });
 
-    var marker = new google.maps.Marker({
-      position: latlng,
-      map: map
-    })
+        // center map
+        this.center_map(map);
+    } // end new_map
 
-    map.markers.push(marker)
+    add_marker($marker, map) {
+        var latlng = new google.maps.LatLng(
+            $marker.getAttribute('data-lat'),
+            $marker.getAttribute('data-lng')
+        );
 
-    // if marker contains HTML, add it to an infoWindow
-    if ($marker.innerHTML) {
-      // create info window
-      var infowindow = new google.maps.InfoWindow({
-        content: $marker.innerHTML
-      })
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+        });
 
-      // show info window when marker is clicked
-      google.maps.event.addListener(marker, "click", function () {
-        infowindow.open(map, marker)
-      })
-    }
-  } // end add_marker
+        map.markers.push(marker);
 
-  center_map(map) {
-    var bounds = new google.maps.LatLngBounds()
+        // if marker contains HTML, add it to an infoWindow
+        if ($marker.innerHTML) {
+            // create info window
+            var infowindow = new google.maps.InfoWindow({
+                content: $marker.innerHTML,
+            });
 
-    // loop through all markers and create bounds
-    map.markers.forEach(function (marker) {
-      var latlng = new google.maps.LatLng(marker.position.lat(), marker.position.lng())
+            // show info window when marker is clicked
+            google.maps.event.addListener(marker, 'click', function () {
+                infowindow.open(map, marker);
+            });
+        }
+    } // end add_marker
 
-      bounds.extend(latlng)
-    })
+    center_map(map) {
+        var bounds = new google.maps.LatLngBounds();
 
-    // only 1 marker?
-    if (map.markers.length == 1) {
-      // set center of map
-      map.setCenter(bounds.getCenter())
-      map.setZoom(16)
-    } else {
-      // fit to bounds
-      map.fitBounds(bounds)
-    }
-  } // end center_map
+        // loop through all markers and create bounds
+        map.markers.forEach(function (marker) {
+            var latlng = new google.maps.LatLng(
+                marker.position.lat(),
+                marker.position.lng()
+            );
+
+            bounds.extend(latlng);
+        });
+
+        // only 1 marker?
+        if (map.markers.length == 1) {
+            // set center of map
+            map.setCenter(bounds.getCenter());
+            map.setZoom(16);
+        } else {
+            // fit to bounds
+            map.fitBounds(bounds);
+        }
+    } // end center_map
 }
 
-export default GMap
+export default GMap;
