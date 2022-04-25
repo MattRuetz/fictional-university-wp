@@ -58,43 +58,6 @@ while (have_posts()) {
             echo '</ul>';
         }
         wp_reset_postdata(); // Reset to URL post query
-
-        $today = date('Ymd');
-
-        // Query for list of EVENTS related to this program
-        $homepageEvents = new WP_Query(array(
-            'posts_per_page' => 2,
-            'post_type' => 'event',
-            'orderby' => 'meta_value_num',
-            'meta_key' => 'event_date',
-            'order' => 'ASC',
-            'meta_query' => array(
-                array(
-                    'key' => 'event_date',
-                    'compare' => '>=',
-                    'value' => $today,
-                    'type' => 'numeric'
-                ),
-                array(
-                    'key' => 'related_programs',
-                    'compare' => 'LIKE',
-                    'value' => '"' . get_the_ID() . '"'
-                ) //query for EVENTS with THIS as a related program
-            )
-        ));
-
-        if ($homepageEvents->have_posts()) {
-
-            echo '<hr class="section-break">';
-            echo '<h2 class="headline headline--medium">Upcoming ' . get_the_title() . ' Events</h2>';
-
-            while ($homepageEvents->have_posts()) {
-                $homepageEvents->the_post();
-                // pull in PHP from: template-parts/content-event.php
-                get_template_part('template-parts/content-event');
-            }
-        }
-        wp_reset_postdata();
         ?>
 
         <div class="metabox metabox--position-up metabox--with-home-link">

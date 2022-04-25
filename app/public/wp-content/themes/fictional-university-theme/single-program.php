@@ -44,7 +44,7 @@ while (have_posts()) {
                     </a>
                 </li>
 
-        <?php
+            <?php
             }
 
             echo '</ul>';
@@ -91,13 +91,16 @@ while (have_posts()) {
         $relatedCampuses = get_field('related_campus');
 
         if ($relatedCampuses) {
+            echo '<hr class="section-break">';
             echo '<h2 class="headline headline--medium">Campuses Offering ' . get_the_title() . ':</h2>';
 
-            foreach($relatedCampuses as $campus) {
-                ?> <li><a href=""><?php echo get_the_title($campus) ?></a></li><?php
-            }
-        }
-        ?>
+            echo '<ul class="link-list min-list">';
+            foreach ($relatedCampuses as $campus) {
+            ?> <li><a href="<?php echo get_the_permalink($campus); ?>"><?php echo get_the_title($campus); ?></a></li><?php
+                                                                                                                    }
+                                                                                                                    echo '</ul>';
+                                                                                                                }
+                                                                                                                        ?>
 
         <div class="metabox metabox--position-up metabox--with-home-link">
             <p>
