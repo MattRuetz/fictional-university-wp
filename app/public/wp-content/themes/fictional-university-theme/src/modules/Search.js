@@ -51,13 +51,33 @@ class Search {
     }
 
     getResults() {
-        this.resultsDiv.html('Imagine results...');
+        $.getJSON(
+            'http://fictional-university.local/wp-json/wp/v2/posts?search=' +
+                this.searchField.val(),
+            (response) => {
+                this.resultsDiv.html(`
+                <h2 class="search-overlay__section-title">General Information</h2>
+                <ul class="link-list min-list">
+                    ${response
+                        .map(
+                            (post) =>
+                                `<li>
+                            <a href=${post.link}>${post.title.rendered}</a>
+                        </li>`
+                        )
+                        .join('')}
+                    
+                </ul>
+                `);
+            }
+        );
     }
 
     keyPressDispatcher(e) {
+        console.log(e.key);
         e.key === 's' &&
             !this.isOverlayOpen &&
-            $('input, textarea').is(':focus') && // if ANY input is active, DONT trigger modal
+            !$('input, textarea').is(':focus') && // if ANY input is active, DONT trigger modal
             this.openOverlay();
 
         e.keyCode == 27 && this.isOverlayOpen && this.closeOverlay();
