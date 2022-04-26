@@ -1,5 +1,23 @@
 <?php
 
+require get_theme_file_path('/includes/search-route.php');
+
+function university_custom_rest()
+{
+    // Customize the REST API for this theme
+    register_rest_field(
+        'post',
+        'authorName',
+        array(
+            'get_callback' => function () {
+                return get_the_author();
+            }
+        )
+    );
+}
+
+add_action('rest_api_init', 'university_custom_rest');
+
 function pageBanner($args = NULL) //args optional
 {
     if (!$args['title']) { //if no title input, give page/article title

@@ -4121,16 +4121,21 @@ class Search {
   }
 
   getResults() {
-    jquery__WEBPACK_IMPORTED_MODULE_0___default().getJSON(universityData.root_url + '/wp-json/wp/v2/posts?search=' + this.searchField.val(), response => {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default().when(jquery__WEBPACK_IMPORTED_MODULE_0___default().getJSON( // matching posts fetched
+    universityData.root_url + '/wp-json/wp/v2/posts?search=' + this.searchField.val()), jquery__WEBPACK_IMPORTED_MODULE_0___default().getJSON( // matching pages fetched
+    universityData.root_url + '/wp-json/wp/v2/pages?search=' + this.searchField.val())).then((posts, pages) => {
+      var combinedResults = posts[0].concat(pages[0]);
       this.resultsDiv.html(`
                 <h2 class="search-overlay__section-title">General Information</h2>
-                ${response.length === 0 ? `<p>No results. Try to search for something else.</p>` : `<ul class="link-list min-list">
-                    ${response.map(post => `<li>
-                            <a href=${post.link}>${post.title.rendered}</a>
+                ${combinedResults.length === 0 ? `<p>No results. Try to search for something else.</p>` : `<ul class="link-list min-list">
+                    ${combinedResults.map(item => `<li>
+                            <a href=${item.link}>${item.title.rendered}</a> ${item.type === 'post' ? `by ${item.authorName}` : ''} 
                         </li>`).join('')}
                 </ul>
                 `}`);
       this.isSpinnerVisible = false;
+    }, () => {
+      this.resultsDiv.html('<p></p>');
     });
   }
 
@@ -4152,29 +4157,28 @@ class Search {
     this.searchOverlay.removeClass('search-overlay--active');
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('body').removeClass('body-no-scroll');
     this.searchField.val('');
+    this.resultsDiv.html('');
     this.isOverlayOpen = false;
   }
 
   addSearchHTML() {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('body').append(`
+            <div class="search-overlay">
+                <div class="search-overlay__top">
+                    <div class="container">
+                        <i class="fa fa-search search-overlay__icon" aria-hidden="true"></i>
+                        <input type="text" class="search-term" placeholder="What are you looking for?" id="search-term" autocomplete="off" />
+                        <i class="fa fa-window-close search-overlay__close" aria-hidden="true"></i>
+                    </div>
+                </div>
 
-    <div class="search-overlay">
-        <div class="search-overlay__top">
-            <div class="container">
-                FOOTER.PHP
-                <i class="fa fa-search search-overlay__icon" aria-hidden="true"></i>
-                <input type="text" class="search-term" placeholder="What are you looking for?" id="search-term" autocomplete="off" />
-                <i class="fa fa-window-close search-overlay__close" aria-hidden="true"></i>
+                <div class="container">
+                    <div id="search-overlay__results">
+
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div id="search-overlay__results">
-
-            </div>
-        </div>
-    </div>
-    `);
+        `);
   }
 
 }

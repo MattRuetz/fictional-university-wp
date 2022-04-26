@@ -142,3 +142,388 @@
 [05-Apr-2022 22:46:35 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 48
 [05-Apr-2022 22:46:37 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 48
 [25-Apr-2022 19:48:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-program.php on line 95
+[26-Apr-2022 20:52:51 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme): failed to open stream: Permission denied in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:52:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:52:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:52:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:52:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:52:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:52:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:52:51 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:52:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:52:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:52:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:52:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:52:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:52:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:53:51 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:53:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:53:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:53:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:53:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:53:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:53:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:53:51 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:53:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:53:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:53:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:53:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:53:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:53:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:55:51 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:55:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:55:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:55:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:55:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:55:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:55:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:55:51 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:55:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:55:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:55:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:55:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:55:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:55:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:57:51 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:57:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:57:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:57:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:57:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:57:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:57:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:57:51 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:57:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:57:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:57:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:57:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:57:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:57:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:59:51 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:59:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:59:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:59:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:59:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:59:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:59:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 20:59:51 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 20:59:51 UTC] PHP Stack trace:
+[26-Apr-2022 20:59:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 20:59:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 20:59:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 20:59:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 20:59:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:00:51 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:00:51 UTC] PHP Stack trace:
+[26-Apr-2022 21:00:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 21:00:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 21:00:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:00:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:00:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:00:51 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:00:51 UTC] PHP Stack trace:
+[26-Apr-2022 21:00:51 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Apr-2022 21:00:51 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Apr-2022 21:00:51 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:00:51 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:00:51 UTC] PHP   5. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:04 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:04 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:04 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:04 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:04 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:04 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:04 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:04 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:04 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:04 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:04 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:04 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:04 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:04 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:04 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:04 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:04 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:04 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:04 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:04 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:04 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:04 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:04 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:04 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:04 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:04 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:04 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:04 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:04 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:04 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:04 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:04 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:37 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/includes/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:37 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:37 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:37 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:37 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:37 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:37 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:37 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:37 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/includes/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:37 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:37 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:37 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:37 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:37 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:37 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:37 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:37 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/includes/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:37 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:37 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:37 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:37 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:37 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:37 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:37 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:37 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/includes/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:37 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:37 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:37 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:37 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:37 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:37 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:37 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:58 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:58 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:58 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:58 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:58 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:58 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:58 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:58 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:58 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:58 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:58 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:58 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:58 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:58 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:58 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:58 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:59 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:59 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:59 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:59 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:59 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:59 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:59 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:59 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:01:59 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:01:59 UTC] PHP Stack trace:
+[26-Apr-2022 21:01:59 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:01:59 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:01:59 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:01:59 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:01:59 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:01:59 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:00 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:02:00 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:00 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:00 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:00 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:02:00 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:02:00 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:02:00 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:00 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:02:00 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:00 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:00 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:00 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:02:00 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:02:00 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:02:00 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:00 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:02:00 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:00 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:00 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:00 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:02:00 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:02:00 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:02:00 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:00 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:02:00 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:00 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:00 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:00 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:02:00 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:02:00 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:02:00 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:01 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:02:01 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:01 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:01 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:01 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:02:01 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:02:01 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:02:01 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:01 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:02:01 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:01 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:01 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:01 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:02:01 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:02:01 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:02:01 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:01 UTC] PHP Warning:  require(C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php): failed to open stream: No such file or directory in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:02:01 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:01 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:01 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:01 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:02:01 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:02:01 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:02:01 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:01 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Matt\Local Sites\fictional-university\app\public/wp-content/themes/fictional-university-theme/./includes/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[26-Apr-2022 21:02:01 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:01 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:01 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:01 UTC] PHP   3. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[26-Apr-2022 21:02:01 UTC] PHP   4. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Apr-2022 21:02:01 UTC] PHP   5. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Apr-2022 21:02:01 UTC] PHP   6. include() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-settings.php:555
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'universityRegisterSearch' not found or invalid function name in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 307
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. rest_get_server() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:379
+[26-Apr-2022 21:02:52 UTC] PHP  11. do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:553
+[26-Apr-2022 21:02:52 UTC] PHP  12. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:474
+[26-Apr-2022 21:02:52 UTC] PHP  13. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1713
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->send_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:282
+[26-Apr-2022 21:02:52 UTC] PHP  12. header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1713
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1713
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->send_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:283
+[26-Apr-2022 21:02:52 UTC] PHP  12. header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1713
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1713
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->send_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:287
+[26-Apr-2022 21:02:52 UTC] PHP  12. header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1713
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1713
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->send_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:295
+[26-Apr-2022 21:02:52 UTC] PHP  12. header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1713
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1713
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->send_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  12. header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1713
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1713
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->send_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:331
+[26-Apr-2022 21:02:52 UTC] PHP  12. header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1713
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1713
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->send_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:346
+[26-Apr-2022 21:02:52 UTC] PHP  12. header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1713
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1713
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->send_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:346
+[26-Apr-2022 21:02:52 UTC] PHP  12. header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1713
+[26-Apr-2022 21:02:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307) in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1737
+[26-Apr-2022 21:02:52 UTC] PHP Stack trace:
+[26-Apr-2022 21:02:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[26-Apr-2022 21:02:52 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[26-Apr-2022 21:02:52 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[26-Apr-2022 21:02:52 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[26-Apr-2022 21:02:52 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[26-Apr-2022 21:02:52 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[26-Apr-2022 21:02:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[26-Apr-2022 21:02:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Apr-2022 21:02:52 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->remove_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:344
+[26-Apr-2022 21:02:52 UTC] PHP  12. header_remove() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1737
