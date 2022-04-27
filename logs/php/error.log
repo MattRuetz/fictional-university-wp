@@ -527,3 +527,35 @@
 [26-Apr-2022 21:02:52 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
 [26-Apr-2022 21:02:52 UTC] PHP  11. WP_REST_Server->remove_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:344
 [26-Apr-2022 21:02:52 UTC] PHP  12. header_remove() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1737
+[27-Apr-2022 15:25:33 UTC] PHP Warning:  log() expects parameter 1 to be float, string given in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\includes\search-route.php on line 35
+[27-Apr-2022 15:25:33 UTC] PHP Stack trace:
+[27-Apr-2022 15:25:33 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[27-Apr-2022 15:25:33 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[27-Apr-2022 15:25:33 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[27-Apr-2022 15:25:33 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[27-Apr-2022 15:25:33 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[27-Apr-2022 15:25:33 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[27-Apr-2022 15:25:33 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[27-Apr-2022 15:25:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[27-Apr-2022 15:25:33 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[27-Apr-2022 15:25:33 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[27-Apr-2022 15:25:33 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:414
+[27-Apr-2022 15:25:33 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:988
+[27-Apr-2022 15:25:33 UTC] PHP  13. universitySearchResults() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1141
+[27-Apr-2022 15:25:33 UTC] PHP  14. log() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\includes\search-route.php:35
+[27-Apr-2022 15:25:33 UTC] PHP Warning:  log() expects parameter 1 to be float, string given in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\includes\search-route.php on line 35
+[27-Apr-2022 15:25:33 UTC] PHP Stack trace:
+[27-Apr-2022 15:25:33 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:0
+[27-Apr-2022 15:25:33 UTC] PHP   2. require() C:\Users\Matt\Local Sites\fictional-university\app\public\index.php:17
+[27-Apr-2022 15:25:33 UTC] PHP   3. wp() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-blog-header.php:16
+[27-Apr-2022 15:25:33 UTC] PHP   4. WP->main() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\functions.php:1310
+[27-Apr-2022 15:25:33 UTC] PHP   5. WP->parse_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:758
+[27-Apr-2022 15:25:33 UTC] PHP   6. do_action_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp.php:396
+[27-Apr-2022 15:25:33 UTC] PHP   7. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:522
+[27-Apr-2022 15:25:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[27-Apr-2022 15:25:33 UTC] PHP   9. rest_api_loaded() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[27-Apr-2022 15:25:33 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api.php:386
+[27-Apr-2022 15:25:33 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:414
+[27-Apr-2022 15:25:33 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:988
+[27-Apr-2022 15:25:33 UTC] PHP  13. universitySearchResults() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1141
+[27-Apr-2022 15:25:33 UTC] PHP  14. log() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\includes\search-route.php:35
