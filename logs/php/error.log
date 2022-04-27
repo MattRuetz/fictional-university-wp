@@ -559,3 +559,4 @@
 [27-Apr-2022 15:25:33 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:988
 [27-Apr-2022 15:25:33 UTC] PHP  13. universitySearchResults() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\rest-api\class-wp-rest-server.php:1141
 [27-Apr-2022 15:25:33 UTC] PHP  14. log() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\includes\search-route.php:35
+[27-Apr-2022 16:43:36 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\includes\search-route.php on line 72

@@ -134,16 +134,25 @@ class Search {
         return `${
             results.events.length === 0
                 ? `<p>No events match this search. <a href="${universityData.root_url}/events">View all events</a></p>`
-                : `<ul class="link-list min-list">
+                : `
                     ${results.events
                         .map(
                             (item) =>
-                                `<li>
-                            <a href=${item.permalink}>${item.title}</a>
-                        </li>`
+                                `
+                                <div class="event-summary">
+                                    <a class="event-summary__date t-center" href="${item.permalink}">
+                                        <span class="event-summary__month">${item.month}</span>
+                                        <span class="event-summary__day">${item.day}</span>
+                                    </a>
+                                    <div class="event-summary__content">
+                                        <h5 class="event-summary__title headline headline--tiny"><a href="
+                                                            ${item.permalink}">${item.title}</a></h5>
+                                        <p>${item.description}<a href="${item.permalink}" class="nu gray"> Learn more</a></p>
+                                    </div>
+                                </div>
+                                `
                         )
                         .join('')}
-                </ul>
                 `
         }`;
     }
