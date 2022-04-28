@@ -48,7 +48,7 @@ function university_post_types()
         'show_in_rest' => true,
         'menu_icon' => 'dashicons-awards',
         'supports' => array(
-            'title', 'editor'
+            'title'
         ),
         'labels' => array(
             'name' => 'Programs',

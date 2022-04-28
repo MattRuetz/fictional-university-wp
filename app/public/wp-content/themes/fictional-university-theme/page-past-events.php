@@ -16,7 +16,7 @@ pageBanner(array(
 
     $pastEvents = new WP_Query(array(
         'paged' => get_query_var('paged', 1),
-        'posts_per_page' => 2,
+        'posts_per_page' => 10,
         'post_type' => 'event',
         'orderby' => 'meta_value_num',
         'meta_key' => 'event_date',

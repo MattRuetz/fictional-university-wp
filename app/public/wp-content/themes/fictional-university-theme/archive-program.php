@@ -21,7 +21,7 @@ pageBanner(array(
 
         <?php
         }
-        // echo paginate_links()
+        echo paginate_links()
         ?>
     </ul>
 
