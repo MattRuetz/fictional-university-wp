@@ -68,7 +68,7 @@ function university_files()
 
     wp_localize_script('main-university-js', 'universityData', array(
         'root_url' => get_site_url(),
-
+        'nonce' => wp_create_nonce('wp_rest') // Number-used-once. (Session Key)
     ));
 }
 
@@ -90,7 +90,6 @@ function university_features()
 }
 
 add_action('after_setup_theme', 'university_features');
-
 
 function university_adjust_queries($query)
 {
@@ -175,6 +174,7 @@ function ourHeaderUrl()
 
 // APPLY CUSTOM CSS TO THE WP LOGIN SCREEN!
 add_action('login_enqueue_scripts', 'ourLoginCSS');
+
 function ourLoginCSS()
 {
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -187,9 +187,21 @@ function ourLoginCSS()
 }
 
 
-add_filter('login_headertitle', 'ourHeaderTitle');
+//Change title shown on login screen to blog name
+add_filter('login_headertitle', 'ourLoginTitle');
 
 function ourLoginTitle()
 {
     return get_bloginfo('name');
+}
+
+// Force note posts to PRIVATE
+add_filter('wp_insert_post_data', 'makeNotePrivate');
+
+function makeNotePrivate($data)
+{
+    if ($data['post_type'] == 'note' and $data['post_status'] != 'trash') {
+        $data['post_status'] = 'private';
+    }
+    return $data;
 }

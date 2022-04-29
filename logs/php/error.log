@@ -613,3 +613,18 @@ Stack trace:
 [29-Apr-2022 00:01:26 UTC] PHP   3. apply_filters_deprecated() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-login.php:149
 [29-Apr-2022 00:01:26 UTC] PHP   4. apply_filters_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:664
 [29-Apr-2022 00:01:26 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:233
+[29-Apr-2022 15:25:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ourHeaderTitle' not found or invalid function name in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 307
+[29-Apr-2022 15:25:52 UTC] PHP Stack trace:
+[29-Apr-2022 15:25:52 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-login.php:0
+[29-Apr-2022 15:25:52 UTC] PHP   2. login_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-login.php:1371
+[29-Apr-2022 15:25:52 UTC] PHP   3. apply_filters_deprecated() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-login.php:149
+[29-Apr-2022 15:25:52 UTC] PHP   4. apply_filters_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:664
+[29-Apr-2022 15:25:52 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:233
+[29-Apr-2022 15:26:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ourHeaderTitle' not found or invalid function name in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 307
+[29-Apr-2022 15:26:49 UTC] PHP Stack trace:
+[29-Apr-2022 15:26:49 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-login.php:0
+[29-Apr-2022 15:26:49 UTC] PHP   2. login_header() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-login.php:1371
+[29-Apr-2022 15:26:49 UTC] PHP   3. apply_filters_deprecated() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-login.php:149
+[29-Apr-2022 15:26:49 UTC] PHP   4. apply_filters_ref_array() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:664
+[29-Apr-2022 15:26:49 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:233
+[29-Apr-2022 16:00:47 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page-my-notes.php on line 46
