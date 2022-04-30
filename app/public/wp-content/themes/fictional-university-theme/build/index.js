@@ -6156,6 +6156,10 @@ class MyNotes {
         thisNote.slideUp(); //smooth removal
 
         console.log(response);
+
+        if (response.userNoteCount < 6) {
+          jquery__WEBPACK_IMPORTED_MODULE_0___default()('.note-limit-message').removeClass('active');
+        }
       },
       error: response => console.log('ERROR:   ' + JSON.stringify(response))
     });
@@ -6214,7 +6218,13 @@ class MyNotes {
                 `).prependTo('#my-notes').hide().slideDown();
         console.log(response);
       },
-      error: response => console.log('ERROR:   ' + JSON.stringify(response))
+      error: response => {
+        if (response.responseText == '\r\nYou have reached your post limit!') {
+          jquery__WEBPACK_IMPORTED_MODULE_0___default()('.note-limit-message').addClass('active');
+        }
+
+        console.log('ERROR:   ' + JSON.stringify(response));
+      }
     });
   }
 

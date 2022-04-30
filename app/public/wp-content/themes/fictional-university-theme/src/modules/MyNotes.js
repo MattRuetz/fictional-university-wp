@@ -30,6 +30,10 @@ class MyNotes {
             success: (response) => {
                 thisNote.slideUp(); //smooth removal
                 console.log(response);
+
+                if (response.userNoteCount < 6) {
+                    $('.note-limit-message').removeClass('active');
+                }
             },
             error: (response) =>
                 console.log('ERROR:   ' + JSON.stringify(response)),
@@ -98,8 +102,16 @@ class MyNotes {
                     .slideDown();
                 console.log(response);
             },
-            error: (response) =>
-                console.log('ERROR:   ' + JSON.stringify(response)),
+            error: (response) => {
+                if (
+                    response.responseText ==
+                    '\r\nYou have reached your post limit!'
+                ) {
+                    $('.note-limit-message').addClass('active');
+                }
+
+                console.log('ERROR:   ' + JSON.stringify(response));
+            },
         });
     }
 
