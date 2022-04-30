@@ -27,8 +27,7 @@ function createLike($data)
 
     // MEhtod 2
     if (is_user_logged_in()) {
-        $professor = sanitize_text_field($data['professor_id']);
-
+        $professor = sanitize_text_field($data['professorId']);
 
         $existQuery = new WP_Query(array(
             'author' => get_current_user_id(),
@@ -47,13 +46,13 @@ function createLike($data)
             return wp_insert_post(array(
                 'post_type' => 'like',
                 'post_status' => 'publish',
-                'post_title' => '2ndTest',
+                'post_title' => get_current_user_id() . '_liked_' . $professor,
                 'meta_input' => array(
                     'liked_professor_id' => $professor
                 )
             )); // will return post ID of new 'like'
         } else {
-            die('Invalid professor ID');
+            die($existQuery->found_posts . '\n' . get_post_type($professor) . '\n' . 'Invalid professor ID');
         }
     } else {
         die('Only logged-in users can leave a <3.');
