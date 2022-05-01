@@ -629,3 +629,65 @@ Stack trace:
 [29-Apr-2022 15:26:49 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:233
 [29-Apr-2022 16:00:47 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page-my-notes.php on line 46
 [30-Apr-2022 17:51:31 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\includes\like-route.php on line 45
+[30-Apr-2022 23:14:37 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php on line 36
+[30-Apr-2022 23:46:05 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'theName' not found in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php on line 1743
+[30-Apr-2022 23:46:05 UTC] PHP Stack trace:
+[30-Apr-2022 23:46:05 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:0
+[30-Apr-2022 23:46:05 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:10
+[30-Apr-2022 23:46:05 UTC] PHP   3. do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin.php:259
+[30-Apr-2022 23:46:05 UTC] PHP   4. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:474
+[30-Apr-2022 23:46:05 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[30-Apr-2022 23:46:05 UTC] PHP   6. WordCountAndTimePlugin->ourHTML() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[30-Apr-2022 23:46:05 UTC] PHP   7. do_settings_sections() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php:99
+[30-Apr-2022 23:46:05 UTC] PHP   8. do_settings_fields() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php:1701
+[30-Apr-2022 23:46:05 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'theName' not found in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php on line 1743
+[30-Apr-2022 23:46:05 UTC] PHP Stack trace:
+[30-Apr-2022 23:46:05 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:0
+[30-Apr-2022 23:46:05 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:10
+[30-Apr-2022 23:46:05 UTC] PHP   3. do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin.php:259
+[30-Apr-2022 23:46:05 UTC] PHP   4. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:474
+[30-Apr-2022 23:46:05 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[30-Apr-2022 23:46:05 UTC] PHP   6. WordCountAndTimePlugin->ourHTML() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[30-Apr-2022 23:46:05 UTC] PHP   7. do_settings_sections() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php:99
+[30-Apr-2022 23:46:05 UTC] PHP   8. do_settings_fields() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php:1701
+[30-Apr-2022 23:46:05 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'theName' not found in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php on line 1743
+[30-Apr-2022 23:46:05 UTC] PHP Stack trace:
+[30-Apr-2022 23:46:05 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:0
+[30-Apr-2022 23:46:05 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:10
+[30-Apr-2022 23:46:05 UTC] PHP   3. do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin.php:259
+[30-Apr-2022 23:46:05 UTC] PHP   4. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:474
+[30-Apr-2022 23:46:05 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[30-Apr-2022 23:46:05 UTC] PHP   6. WordCountAndTimePlugin->ourHTML() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[30-Apr-2022 23:46:05 UTC] PHP   7. do_settings_sections() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php:99
+[30-Apr-2022 23:46:05 UTC] PHP   8. do_settings_fields() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php:1701
+[30-Apr-2022 23:46:29 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, array must have exactly two members in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php on line 1743
+[30-Apr-2022 23:46:29 UTC] PHP Stack trace:
+[30-Apr-2022 23:46:29 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:0
+[30-Apr-2022 23:46:29 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:10
+[30-Apr-2022 23:46:29 UTC] PHP   3. do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin.php:259
+[30-Apr-2022 23:46:29 UTC] PHP   4. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:474
+[30-Apr-2022 23:46:29 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[30-Apr-2022 23:46:29 UTC] PHP   6. WordCountAndTimePlugin->ourHTML() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[30-Apr-2022 23:46:29 UTC] PHP   7. do_settings_sections() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php:99
+[30-Apr-2022 23:46:29 UTC] PHP   8. do_settings_fields() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php:1701
+[30-Apr-2022 23:46:29 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, array must have exactly two members in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php on line 1743
+[30-Apr-2022 23:46:29 UTC] PHP Stack trace:
+[30-Apr-2022 23:46:29 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:0
+[30-Apr-2022 23:46:29 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:10
+[30-Apr-2022 23:46:29 UTC] PHP   3. do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin.php:259
+[30-Apr-2022 23:46:29 UTC] PHP   4. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:474
+[30-Apr-2022 23:46:29 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[30-Apr-2022 23:46:29 UTC] PHP   6. WordCountAndTimePlugin->ourHTML() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[30-Apr-2022 23:46:29 UTC] PHP   7. do_settings_sections() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php:99
+[30-Apr-2022 23:46:29 UTC] PHP   8. do_settings_fields() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php:1701
+[30-Apr-2022 23:46:29 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, array must have exactly two members in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php on line 1743
+[30-Apr-2022 23:46:29 UTC] PHP Stack trace:
+[30-Apr-2022 23:46:29 UTC] PHP   1. {main}() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:0
+[30-Apr-2022 23:46:29 UTC] PHP   2. require_once() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\options-general.php:10
+[30-Apr-2022 23:46:29 UTC] PHP   3. do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\admin.php:259
+[30-Apr-2022 23:46:29 UTC] PHP   4. WP_Hook->do_action() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\plugin.php:474
+[30-Apr-2022 23:46:29 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[30-Apr-2022 23:46:29 UTC] PHP   6. WordCountAndTimePlugin->ourHTML() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:307
+[30-Apr-2022 23:46:29 UTC] PHP   7. do_settings_sections() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php:99
+[30-Apr-2022 23:46:29 UTC] PHP   8. do_settings_fields() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php:1701
+[01-May-2022 00:26:09 UTC] PHP Parse error:  syntax error, unexpected 'is_main_query' (T_STRING), expecting '(' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php on line 25

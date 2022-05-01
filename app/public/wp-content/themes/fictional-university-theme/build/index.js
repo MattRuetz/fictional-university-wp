@@ -6141,9 +6141,8 @@ class Like {
         likeCount++;
         currentLikeBox.querySelector('.like-count').innerHTML = likeCount;
         currentLikeBox.setAttribute('data-like', response.data);
-      }
+      } // console.log(response.data);
 
-      console.log(response.data);
     } catch (e) {
       console.log('Sorry');
     }
@@ -6162,8 +6161,7 @@ class Like {
       var likeCount = parseInt(currentLikeBox.querySelector('.like-count').innerHTML, 10);
       likeCount--;
       currentLikeBox.querySelector('.like-count').innerHTML = likeCount;
-      currentLikeBox.setAttribute('data-like', '');
-      console.log(response.data);
+      currentLikeBox.setAttribute('data-like', ''); // console.log(response.data);
     } catch (e) {
       console.log(e);
     }
