@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "build": "wp-scripts build src/index.js src/frontend.js",
+        "start": "wp-scripts start src/index.js src/frontend.js"
+    },
+    "dependencies": {
+        "@wordpress/scripts": "^22.5.0"
+    }
+}

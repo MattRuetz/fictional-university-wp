@@ -691,3 +691,4 @@ Stack trace:
 [30-Apr-2022 23:46:29 UTC] PHP   7. do_settings_sections() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php:99
 [30-Apr-2022 23:46:29 UTC] PHP   8. do_settings_fields() C:\Users\Matt\Local Sites\fictional-university\app\public\wp-admin\includes\template.php:1701
 [01-May-2022 00:26:09 UTC] PHP Parse error:  syntax error, unexpected 'is_main_query' (T_STRING), expecting '(' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\first-custom-plugin\first-custom-plugin.php on line 25
+[01-May-2022 16:39:43 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Matt\Local Sites\fictional-university\app\public\wp-content\plugins\are-you-paying-attention\index.php on line 30
